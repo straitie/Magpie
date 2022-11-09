@@ -13,7 +13,7 @@ Also, take note of
 - Most peculiar response
 - Keywords is seems to pick up on and the responses
 
-## Activity 2
+## Activity 2: Introduction to the Magpie Class
 
 In this activity, you will work Magpie, with a simple implementation of a chatbot. You will see how it works with some keywords and add keywords of your own.
 
@@ -60,3 +60,5 @@ Response: Say something, please.
 
 ### Question
 1. What happens when a keyword is included in another word? Consider statements like “I know all the state capitals” and “I like vegetables smothered in cheese.” Explain the problem with the responses to these statements.
+
+## Activity 3: Better Keyword Detection

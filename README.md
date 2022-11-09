@@ -61,4 +61,17 @@ Response: Say something, please.
 ### Question
 1. What happens when a keyword is included in another word? Consider statements like “I know all the state capitals” and “I like vegetables smothered in cheese.” Explain the problem with the responses to these statements.
 
-## Activity 3: Better Keyword Detection
+<!-- ## Activity 3: Better Keyword Detection
+
+In the previous activity, you discovered that simply searching for collections of letters in a string does not always work as intended. For example, the word “cat” is in the string “Let’s play catch!,” but the string has nothing to do with the animal. In this activity, you will trace a method that searches for a full word in the string. It will check the substring before and after the string to ensure that the keyword is actually found.
+You will use some more complex String methods in this activity. The String class has many useful methods, not all of which are included in the AP Computer Science Java Subset. But they can be helpful in certain cases, so you will learn how to use the API to explore all of the methods that are built into Java.
+
+### Prepare
+Have available:
+- the API for the Magpie class
+- the API for the String class
+- the code for the StringExplorer
+- the code for the Magpie
+- the code for the MagpieRunner
+- a computer with your Java development tools
+-->

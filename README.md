@@ -34,6 +34,9 @@ How does it respond to:
 ### Exploration
 Look at the code. See how the if statement assigns a value to the response and returns that response. The method getRandomResponse picks a response from a group of String objects.
 
+### Pseudocode
+Before you alter the code, write out pseudocode for your solution.
+
 ### Exercises
 Alter the code:
 - Have it respond “Tell me more about your pets” when the statement contains the word “dog” or “cat.” For example, a possible statement and response would be:

@@ -42,6 +42,10 @@ public class Magpie2
 		{
 			response = "Tell me more about your family.";
 		}
+		else if (statement.indexOf("Mr.Smith") >= 0)
+		{
+			response = "Oh I know Mr.Smith! He is an awesome teacher!";
+		}
 		else
 		{
 			response = getRandomResponse();

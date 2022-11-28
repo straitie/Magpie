@@ -30,8 +30,12 @@ public class Magpie2
 	 */
 	public String getResponse(String statement) {
 		String response = "";
+		String statement1 = statement.trim();
 		if (statement.indexOf("no") >= 0) {
 			response = "Why so negative?";
+		}
+		else if (statement1.length() == 0){
+			System.out.println("Please say something!");
 		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0

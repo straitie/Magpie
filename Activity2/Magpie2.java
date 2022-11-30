@@ -80,7 +80,7 @@ public class Magpie2
 	 */
 	private String getRandomResponse()
 	{
-		final int NUMBER_OF_RESPONSES = 4;
+		final int NUMBER_OF_RESPONSES = 7;
 		double r = Math.random();
 		int whichResponse = (int)(r * NUMBER_OF_RESPONSES);
 		String response = "";
@@ -100,6 +100,18 @@ public class Magpie2
 		else if (whichResponse == 3)
 		{
 			response = "You don't say.";
+		}
+		else if (whichResponse == 4)
+		{
+			response = "We should talk more often";
+		}
+		else if (whichResponse == 5)
+		{
+			response = "What's your number?";
+		}
+		else if (whichResponse == 6)
+		{
+			response = "Who? What? When? Where? Why?";
 		}
 
 		return response;

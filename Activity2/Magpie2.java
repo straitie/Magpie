@@ -31,41 +31,42 @@ public class Magpie2
 	public String getResponse(String statement) {
 		String response = "";
 		String statement1 = statement.trim();
+		String statement2 = " "+statement.toLowerCase()+" ";
 		if (statement.indexOf("no") >= 0) {
 			response = "Why so negative?";
 		}
 		else if (statement1.length() == 0){
 			System.out.println("Please say something!");
 		}
-		else if (statement.indexOf("mother") >= 0
-				|| statement.indexOf("father") >= 0
-				|| statement.indexOf("sister") >= 0
-				|| statement.indexOf("brother") >= 0) {
+		else if (statement2.indexOf(" mother ") >= 0
+				|| statement2.indexOf(" father ") >= 0
+				|| statement2.indexOf(" sister ") >= 0
+				|| statement2.indexOf(" brother ") >= 0) {
 			response = "Tell me more about your family.";
 
 		}
-		else if (statement.indexOf("cat") >= 0
-				|| statement.indexOf("dog") >= 0) {
+		else if (statement2.indexOf(" cat ") >= 0
+				|| statement2.indexOf(" dog ") >= 0) {
 			System.out.println("Tell me more about your pet");
 		}
-		else if (statement.indexOf("Mr. ") >= 0) {
+		else if (statement2.indexOf(" mr. ") >= 0) {
 			System.out.println("He sounds like a good teacher");
 		}
-		else if (statement.indexOf("Mrs. ") >= 0
-				|| statement.indexOf("Ms. ") >= 0) {
+		else if (statement2.indexOf(" mrs. ") >= 0
+				|| statement2.indexOf(" ms. ") >= 0) {
 			System.out.println("She sounds like a good teacher");
 		}
-		else if (statement.indexOf("Mx. ") >= 0
-				|| statement.indexOf("Dr. ") >= 0) {
+		else if (statement2.indexOf(" mx. ") >= 0
+				|| statement2.indexOf(" dr. ") >= 0) {
 			System.out.println("They sound like a good teacher");
 		}
-		else if (statement.indexOf("Shut up") >= 0) {
+		else if (statement2.indexOf(" shut up ") >= 0) {
 			System.out.println(":(");
 		}
-		else if (statement.indexOf("sing") >= 0) {
-			System.out.println("Ring around the Rosie, \n A pocket full of posies. \n Ashes! Ashes! \n We all fall down!");
+		else if (statement2.indexOf(" sing ") >= 0) {
+			System.out.println("Ring around the Rosie, \nA pocket full of posies. \nAshes! Ashes! \nWe all fall down!");
 		}
-		else if (statement.indexOf("goodbye") >= 0 || statement.indexOf("bye") >= 0) {
+		else if (statement.indexOf(" goodbye ") >= 0 || statement.indexOf(" bye ") >= 0) {
 			System.out.println("I'm lonely. Please don't leave me.");
 		}
 		else {
